@@ -1,0 +1,40 @@
+.blue-body {
+    margin: 0 15px 100px 15px;
+}
+.blue-body__wrapper {
+    background-color: #88B5BF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+}
+.blue-body__box {
+    width: 11vw;
+    height: 11vw;
+    background-color: #0D89B0;
+}
+
+@media screen and (max-width: 900px) {
+    .blue-body {
+        margin: 0 15px 50px 15px;
+    }
+    .blue-body__wrapper {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .blue-body {
+        margin: 0 15px 25px 15px;
+    }
+    .blue-body__wrapper {
+        height: 150px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .blue-body {
+        margin: 0 15px 12px 15px;
+    }
+    .blue-body__wrapper {
+        height: 80px;
+    }
+}

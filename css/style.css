@@ -1,0 +1,50 @@
+@import url(header.css);
+@import url(green-body.css);
+@import url(blue-body.css);
+@import url(footer.css);
+@import url(modal.css);
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.conteiner {
+    margin: 0 230px;
+    background: #C0DBD9;
+}
+
+.width_100 {
+    width: 100%;
+}
+.width_39 {
+    width: 39%;
+}
+.width_50 {
+    width: 50%;
+}
+.width_9 {
+    width: 9%;
+}
+.width_90 {
+    width: 90%;
+}
+
+@media screen and (max-width: 900px) {
+    .conteiner {
+        margin: 0 120px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .conteiner {
+        margin: 0 70px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .conteiner {
+        margin: 0 50px;
+    }
+}
